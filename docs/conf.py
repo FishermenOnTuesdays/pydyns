@@ -51,9 +51,9 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "python_example"
-copyright = "2016, Sylvain Corlay"
-author = "Sylvain Corlay"
+project = "pydyns"
+copyright = "2022, Dyns"
+author = "DynS"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -205,7 +205,7 @@ html_static_path = ["_static"]
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "python_exampledoc"
+htmlhelp_basename = "pydynsdoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -226,9 +226,9 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "python_example.tex",
-        "python_example Documentation",
-        "Sylvain Corlay",
+        "pydyns.tex",
+        "pydyns Documentation",
+        "DynS",
         "manual",
     ),
 ]
@@ -259,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, "python_example", "python_example Documentation", [author], 1)
+    (master_doc, "pydyns", "pydyns Documentation", [author], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -274,10 +274,10 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "python_example",
-        "python_example Documentation",
+        "pydyns",
+        "pydyns Documentation",
         author,
-        "python_example",
+        "pydyns",
         "One line description of project.",
         "Miscellaneous",
     ),

@@ -1,9 +1,9 @@
-python_example Documentation
+pydyns Documentation
 ============================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
-   python_example
+   pydyns

@@ -1,0 +1,3 @@
+[submodule "src/DynamicSystem"]
+	path = src/DynamicSystem
+	url = https://github.com/FishermenOnTuesdays/DynamicSystem.git
