@@ -23,7 +23,7 @@ include_dirs = [
     cwd,
     cwd + '\\src\\DynamicSystem\\include',
     cwd + '\\src\\DynamicSystem\\include\\fparser',
-    cwd + '\\src\\DynamicSystem\\include\\eigen-3.3.9',
+    cwd + '\\src\\DynamicSystem\\include\\eigen',
 ]
 
 print(include_dirs)
