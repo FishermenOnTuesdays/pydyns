@@ -16,8 +16,9 @@ Test call
 ---------
 
 ```python
-import pydyns
-dynamic_system = ds.DynamicSystem([1,2,3], ["x2","x3","1/4*10^3*(0-220*10^(-3)*x3-1000*10^(-3)*x2-x1)"], 'x1,x2,x3')
-dynamic_system.SetDt(0.001)
-trajectory = dynamic_system.GetTrajectory(5)
+import pydyns as dyns
+# Lorenz system
+dynamic_system = dyns.DynamicSystem([0.1,0.1,0.1], ["s*(y-x)","x*(r-z)-y","x*y-b*z"], 'x,y,z')
+dynamic_system.SetDt(0.01)
+trajectory = dynamic_system.GetTrajectory(100)
 ```
