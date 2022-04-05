@@ -5,7 +5,7 @@ from pybind11 import get_cmake_dir
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 from setuptools import setup
 
-__version__ = "0.0.1"
+__version__ = "0.0.5"
 
 # The main interface is through Pybind11Extension.
 # * You can add cxx_std=11/14/17, and then build_ext can be removed.
@@ -21,9 +21,9 @@ __version__ = "0.0.1"
 cwd = os.path.dirname(os.path.abspath(__file__))
 include_dirs = [
     cwd,
-    cwd + '\\src\\DynamicSystem\\include',
-    cwd + '\\src\\DynamicSystem\\include\\fparser',
-    cwd + '\\src\\DynamicSystem\\include\\eigen',
+    cwd + '/src/DynamicSystem/include',
+    cwd + '/src/DynamicSystem/include/fparser',
+    cwd + '/src/DynamicSystem/include/eigen',
 ]
 
 print(include_dirs)
@@ -34,6 +34,7 @@ ext_modules = [
         include_dirs=include_dirs,
         # Example: passing in the version to the compiled code
         define_macros = [('VERSION_INFO', __version__)],
+        cxx_std='2a'
         ),
 ]
 
