@@ -9,8 +9,6 @@ Installation
 
  - clone this repository with `git clone --recurse-submodules -j8 https://github.com/FishermenOnTuesdays/pydyns.git`
  - `pip install ./pydyns`
- 
- if you will encounter any errors, just try installing again, that should run like butter.
 
 Test call
 ---------
