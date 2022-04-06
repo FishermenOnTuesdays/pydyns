@@ -1,5 +1,3 @@
 import pydyns
 
-assert pydyns.__version__ == '0.0.1'
-# assert m.add(1, 2) == 3
-# assert m.subtract(1, 2) == -1
+assert pydyns.__version__ == '0.0.6'
