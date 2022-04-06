@@ -7,8 +7,14 @@ This requires Python 3.6+
 Installation
 ------------
 
+using PYPI
+ - `pip install pydyns`
+
+from source
  - clone this repository with `git clone --recurse-submodules -j8 https://github.com/FishermenOnTuesdays/pydyns.git`
  - `pip install ./pydyns`
+
+NOTE: on macOS there could be errors with openMP headers, if so run `brew install libomp` and problem should be resolved.
 
 Test call
 ---------
