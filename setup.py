@@ -34,7 +34,7 @@ ext_modules = [
         include_dirs=include_dirs,
         # Example: passing in the version to the compiled code
         define_macros = [('VERSION_INFO', __version__)],
-        cxx_std='2a'
+        cxx_std='17'
         ),
 ]
 
