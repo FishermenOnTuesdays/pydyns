@@ -5,7 +5,7 @@ from pybind11 import get_cmake_dir
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 from setuptools import setup
 
-__version__ = "0.0.5"
+__version__ = "0.0.6"
 
 # The main interface is through Pybind11Extension.
 # * You can add cxx_std=11/14/17, and then build_ext can be removed.
@@ -34,7 +34,7 @@ ext_modules = [
         include_dirs=include_dirs,
         # Example: passing in the version to the compiled code
         define_macros = [('VERSION_INFO', __version__)],
-        cxx_std='17'
+        cxx_std=17
         ),
 ]
 
