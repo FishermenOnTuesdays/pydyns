@@ -5,7 +5,7 @@ from pybind11 import get_cmake_dir
 from pybind11.setup_helpers import Pybind11Extension, build_ext
 from setuptools import setup
 
-__version__ = "0.0.6"
+__version__ = "0.0.7"
 
 # The main interface is through Pybind11Extension.
 # * You can add cxx_std=11/14/17, and then build_ext can be removed.
@@ -42,9 +42,9 @@ setup(
     name="pydyns",
     version=__version__,
     author="Karachurin Raul, Ladygin Stanislav",
-    author_email="karrauln@yandex.ru",
+    author_email="RNKarachurin@mephi.ru, SALadygin@mephi.ru",
     url="https://github.com/FishermenOnTuesdays/pydyns",
-    description="A test Python bindings for DynS C++ library",
+    description="Cross-platform Python wrapper for DynS C++ Numerical Methods library. Developed at ICIS MEPhI in 2020-2022.",
     long_description="",
     ext_modules=ext_modules,
     extras_require={"test": "pytest"},
